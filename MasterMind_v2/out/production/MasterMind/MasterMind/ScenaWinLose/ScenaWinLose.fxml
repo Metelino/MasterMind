@@ -1,0 +1,21 @@
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import java.net.URL?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.control.RadioButton?>
+<VBox fx:controller="MasterMind.ScenaWinLose.WinLoseController" xmlns:fx="http://javafx.com/fxml"
+      style = '-fx-background-color : red;' alignment="CENTER" fx:id = "WinLoseScreen" spacing="30">
+    <Label fx:id = "WinTekst"/>
+    <Button prefWidth="400" style = "-fx-font-size: 2em; -fx-text-fill : black;"
+            fx:id = 'NewGame' text = "Start new game" onMouseClicked="#transitionToConfig">
+    </Button>
+</VBox>
+
