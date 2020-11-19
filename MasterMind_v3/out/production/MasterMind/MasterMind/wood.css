@@ -1,0 +1,72 @@
+@font-face{
+src: url("../tekstury/bahiana.otf");
+}
+
+.root *{
+-fx-font-family : Bahiana;
+-fx-text-fill : black;
+-fx-font-size: 2em;
+}
+
+#BaseAnchor{
+-fx-background-image : url("../tekstury/wood1.jpg");
+}
+
+.ConfigBox{
+-fx-background-color : rgb(153, 79, 0);
+-fx-border-color : rgb(51, 26, 0);
+-fx-border-width : 3px;
+}
+
+.CheckBox{
+-fx-background-image : url("../tekstury/wood2.jpeg");
+-fx-border-color : rgb(51, 26, 0);
+-fx-border-width : 3px;
+-fx-padding : 5px;
+}
+
+.GameBox{
+-fx-background-radius : 10px;
+-fx-background-image : url("../tekstury/wood2.jpeg");
+-fx-border-color : rgb(51, 26, 0);
+-fx-border-width : 3px;
+-fx-padding : 8px;
+}
+
+.gameField{
+-fx-opacity : 0.65;
+-fx-stroke-width : 2px;
+-fx-stroke : black;
+-fx-fill : grey;
+}
+
+.checkField{
+-fx-stroke-width : 1px;
+-fx-stroke : black;
+-fx-fill : grey;
+}
+
+#GameGrid{
+-fx-background-image : url("../tekstury/wood3.jpg");
+-fx-border-color : rgb(51, 26, 0);
+-fx-border-width : 5px;
+-fx-padding : 20px;
+}
+
+Button{
+-fx-background-color : rgb(153, 79, 0);
+-fx-background-radius: 10px;
+-fx-border-width : 6px;
+-fx-border-radius : 10px;
+-fx-border-color : black;
+}
+
+.head{
+-fx-font-size: 4em;
+}
+
+#Cog{
+-fx-background-image : url("../tekstury/wood_cog.png");
+-fx-background-position : center;
+-fx-background-size : contain;
+}
