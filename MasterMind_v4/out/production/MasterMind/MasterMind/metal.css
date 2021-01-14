@@ -1,0 +1,100 @@
+@font-face{
+src: url("../tekstury/gunmetal.ttf");
+}
+
+.root *{
+-fx-font-family : Gunmetal;
+-fx-text-fill : black;
+-fx-font-size: 2em;
+}
+
+#BaseAnchor{
+-fx-background-image : url("../tekstury/metal1.jpg");
+}
+
+.CheckBox{
+-fx-background-image : url("../tekstury/metal3.jpg");
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8) , 5, 0.2 , 2 , 2 );
+-fx-padding : 5px;
+}
+
+.GameBox{
+-fx-background-image : url("../tekstury/metal3.jpg");
+-fx-border-width : 5px;
+-fx-border-radius : 10;
+-fx-padding : 8px;
+-fx-background-radius : 20;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8) , 5, 0.2 , 2 , 2 );
+}
+
+.gameField{
+-fx-opacity : 1;
+-fx-stroke-width : 2px;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 8, 0.2 , 2 , 2 );
+-fx-fill :
+        linear-gradient(to bottom right, transparent, white, transparent);
+}
+
+.checkField{
+-fx-stroke-width : 1px;
+-fx-stroke : black;
+-fx-fill : grey;
+}
+
+.number{
+-fx-font-size: 3em;
+}
+
+#Shutter1{
+-fx-background-image : url("../tekstury/metal2.jpg");
+-fx-border-color : black;
+-fx-border-width : 5px;
+}
+
+#Shutter2{
+-fx-background-image : url("../tekstury/metal2.jpg");
+-fx-border-color : black;
+-fx-border-width : 5px;
+}
+
+#Piston{
+-fx-background-image : url("../tekstury/metal2.jpg");
+-fx-border-color : black;
+-fx-border-width : 5px;
+}
+
+#GameGrid{
+-fx-background-image : url("../tekstury/metal2.jpg");
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 20, 0.1 , 0 , 0 );
+-fx-padding : 15px;
+}
+
+#GameScreen{
+-fx-padding : 10px;
+}
+
+#Tooltip{
+-fx-background-image : url("../tekstury/metal2.jpg");
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 20, 0.1 , 0 , 0 );
+-fx-padding : 20px;
+-fx-font-size: 4em;
+}
+
+Button{
+-fx-background-color : grey;
+-fx-background-radius: 50px;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 15, 0.2 , 0 , 0);
+}
+
+.head{
+-fx-font-size: 4em;
+-fx-font-weight : bolder;
+}
+
+#Palette{
+-fx-background-color : grey;
+-fx-border-width : 3px;
+-fx-border-radius : 5px;
+-fx-border-color : black;
+-fx-padding : 3px;
+}
