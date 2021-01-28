@@ -20,24 +20,22 @@ src: url("../tekstury/bahiana.otf");
 
 .CheckBox{
 -fx-background-image : url("../tekstury/wood2.jpeg");
--fx-border-color : rgb(51, 26, 0);
--fx-border-width : 3px;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 8, 0.2 , 2 , 2 );
 -fx-padding : 5px;
 }
 
 .GameBox{
--fx-background-radius : 10px;
 -fx-background-image : url("../tekstury/wood2.jpeg");
--fx-border-color : rgb(51, 26, 0);
--fx-border-width : 3px;
 -fx-padding : 8px;
+-fx-effect: dropshadow(gaussian, rgba(23,0,0,0.8) , 15, 0.5 , 2 , 2 );
 }
 
 .gameField{
--fx-opacity : 0.65;
+-fx-opacity : 1;
 -fx-stroke-width : 2px;
--fx-stroke : black;
--fx-fill : grey;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 8, 0.2 , 2 , 2 );
+-fx-fill :
+        linear-gradient(to bottom right, transparent, white, transparent);
 }
 
 .checkField{
@@ -60,17 +58,14 @@ src: url("../tekstury/bahiana.otf");
 
 #GameGrid{
 -fx-background-image : url("../tekstury/wood3.jpg");
--fx-border-color : rgb(51, 26, 0);
--fx-border-width : 5px;
--fx-padding : 20px;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 20, 0.1 , 0 , 0 );
+-fx-padding : 15px;
 }
 
 Button{
 -fx-background-color : rgb(153, 79, 0);
--fx-background-radius: 10px;
--fx-border-width : 6px;
--fx-border-radius : 10px;
--fx-border-color : black;
+-fx-background-radius: 35px;
+-fx-effect: dropshadow(gaussian, rgba(0,0,0,1) , 15, 0.2 , 0 , 0);
 }
 
 .head{

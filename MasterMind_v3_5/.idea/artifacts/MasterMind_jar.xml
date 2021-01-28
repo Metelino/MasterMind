@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact name="MasterMind:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MasterMind_jar</output-path>
+    <root id="root">
+      <element id="archive" name="MasterMind.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="MasterMind" />
+      </element>
+      <element id="library" level="application" name="JavaFX-11" />
+      <element id="library" level="project" name="bin" />
+    </root>
+  </artifact>
+</component>

@@ -121,9 +121,9 @@ public class GraController extends GameInfo {
 
     public boolean WinCheck(){
         int RedCount = 0;
-        Boolean[] Win = {false, false, false, false};
-        Boolean[] Current = {false, false, false, false};
-        Integer[] Colors = {0,0,0,0};
+        boolean[] Win = {false, false, false, false, false};
+        boolean[] Current = {false, false, false, false, false};
+        Integer[] Colors = {0,0,0,0,0};
 
         //Sprawdzanie czerwonych
         for(int i = 0; i < Columns; i++)
@@ -282,7 +282,7 @@ public class GraController extends GameInfo {
                     item.setMouseTransparent(false);
                     item.setVisible(true);
                 });
-                CurColors[ChosenRow][ChosenCol] = COLORS.indexOf(ColorField.getFill());
+                CurColors[ChosenRow][ChosenCol] = COLORS.indexOf((Color)ColorField.getFill());
                 for(Integer color : CurColors[ChosenRow])
                     System.out.printf("%d:", color);
                 System.out.print("\r");
@@ -296,6 +296,7 @@ public class GraController extends GameInfo {
             TilePane Checkbox = new TilePane();
             //Checkbox.setMinSize(100, 50);
             //Checkbox.setTranslateX(GameScreen.getParent().sceneToLocal(0,0).getX());
+            //Checkbox.setMaxWidth();
             Checkbox.setVgap(2);
             Checkbox.setHgap(2);
             if (Columns != 5)

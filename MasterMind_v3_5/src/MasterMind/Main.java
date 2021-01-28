@@ -1,5 +1,6 @@
 package MasterMind;
 
+import MasterMind.AppStart;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -12,9 +13,9 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("ScenaStart/ScenaStart.fxml"));
         primaryStage.setTitle("MasterMind");
-        primaryStage.setScene(new Scene(root, 750, 900));
+        primaryStage.setScene(new Scene(root, 850, 900));
         primaryStage.setMinHeight(600);
-        primaryStage.setMinWidth(450);
+        primaryStage.setMinWidth(500);
         primaryStage.show();
     }
 
@@ -22,3 +23,9 @@ public class Main extends Application {
         launch(args);
     }
 }
+
+//public class Main{
+//    public static void main(String[] args) {
+//        AppStart.main(args);
+//    }
+//}

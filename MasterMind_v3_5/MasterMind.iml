@@ -9,6 +9,5 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JavaFX-11" level="application" />
     <orderEntry type="library" name="bin" level="project" />
-    <orderEntry type="library" name="javafx.web" level="project" />
   </component>
 </module>

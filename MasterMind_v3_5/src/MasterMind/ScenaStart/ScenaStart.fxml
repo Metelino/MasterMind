@@ -36,7 +36,7 @@
                   </Button>
                 <HBox alignment = 'center' spacing = "20">
                     <RadioButton text = 'Metal' toggleGroup="$Styl" selected = "true"/>
-                    <RadioButton text = 'Drewno' toggleGroup="$Styl"/>
+                    <RadioButton text = 'Wood' toggleGroup="$Styl"/>
                 </HBox>
             </VBox>
         </StackPane>

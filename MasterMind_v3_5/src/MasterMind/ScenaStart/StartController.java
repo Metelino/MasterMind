@@ -29,7 +29,7 @@ public class StartController {
     private final String metal = getClass().getResource("/MasterMind/metal.css").toExternalForm();
     private final String wood = getClass().getResource("/MasterMind/wood.css").toExternalForm();
     private final Double InitHeight = 900.0;
-    private final Double InitWidth = 750.0;
+    private final Double InitWidth = 850.0;
     private final DoubleProperty WidthScale = new SimpleDoubleProperty(1.0);
     private final DoubleProperty HeightScale = new SimpleDoubleProperty(1.0);
     @FXML
