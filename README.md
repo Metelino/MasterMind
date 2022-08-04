@@ -29,16 +29,16 @@ is taken by computer who randomly generates a set of colors and grades the human
 
 ## Pictures
 <p>Start game</p>
-<img src="./img/start_metal.png" width=300 height=400>
+<img src="./img/start_metal.png" width=350 height=400>
 <p>Choose different theme</p>
-<img src="./img/start_wood.png" width=300 height=400>
+<img src="./img/start_wood.png" width=350 height=400>
 <p>Configure your game</p>
-<img src="./img/config.png" width=300 height=500>
+<img src="./img/config.png" width=350 height=500>
 <p>Playing the game</p>
 <div style="display: flex; flex-direction:row;">
-  <img src="./img/game_1.png" width=300 height=400>
-  <img src="./img/game_2.png" width=300 height=400>
-  <img src="./img/game_3.png" width=300 height=400>
+  <img src="./img/game_1.png" width=350 height=400>
+  <img src="./img/game_2.png" width=350 height=400>
+  <img src="./img/game_3.png" width=350 height=400>
 </div>
 
 ## Setup
