@@ -36,9 +36,9 @@ is taken by computer who randomly generates a set of colors and grades the human
 <img src="./img/config.png" width=350 height=400>
 <p>Playing the game</p>
 <div style="display: flex; flex-direction:row;">
-  <img src="./img/game_1.png" width=350 height=400>
-  <img src="./img/game_2.png" width=350 height=400>
-  <img src="./img/game_3.png" width=350 height=400>
+  <img src="./img/game_1.png" width=300 height=350>
+  <img src="./img/game_2.png" width=300 height=350>
+  <img src="./img/game_3.png" width=300 height=350>
 </div>
 
 ## Setup
